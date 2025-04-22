@@ -1,0 +1,159 @@
+/* Global Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2efe6;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #ffffff;
+  }
+  
+  .navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #88b04b;
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #88b04b;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Highlighted Text */
+  .highlight {
+    color: #88b04b;
+  }
+  
+  /* Buttons */
+  .btn-send-message {
+    background-color: white;
+    color: #88b04b;
+    border: 1px solid #88b04b;
+  }
+  
+  .btn-send-message:hover {
+    background-color: #88b04b;
+    color: white;
+  }
+  
+  .btn-send-message:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(136, 176, 75, 0.5);
+  }
+  
+  /* Outline Primary Button */
+  .btn-outline-primary {
+    color: #88b04b;
+    border-color: #88b04b;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #88b04b;
+    color: white;
+  }
+  
+  .btn-outline-primary:focus,
+  .btn-outline-primary:active {
+    background-color: #88b04b !important;
+    border-color: #88b04b !important;
+    color: white !important;
+    box-shadow: none !important;
+  }
+  
+  /* Hero Image */
+  .hero-img {
+    max-width: 220px;
+    border-radius: 50%;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f9f8f5;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 80px 0;
+  }
+  
+  .section-light {
+    background-color: #ffffff;
+  }
+  
+  .section-alt {
+    background-color: #f8f6ed;
+  }
+  
+  .fullscreen-section {
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added to make content horizontally centered */
+  }
+  
+  /* Section Icon */
+  .section-icon {
+    font-size: 50px;
+    color: #88b04b;
+  }
+  
+  /* Card Hover Effects */
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Social Icons */
+  .social-icons a {
+    font-size: 35px;
+    margin-right: 15px;
+    color: #88b04b;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #333;
+  }
+  
+  /* Button Outline Green */
+  .btn-outline-green {
+    color: #ffffff;
+    background-color: #88b04b; /* Background hijau */
+    border-color: #88b04b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  
+  .btn-outline-green:hover {
+    background-color: #6a9e3d; /* Warna lebih gelap saat hover */
+    border-color: #6a9e3d;
+    color: white;
+  }
+  
+  /* Fix Missing Closing Bracket */
+  .btn-send-message:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(136, 176, 75, 0.5);
+  }
+ 
